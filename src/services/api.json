@@ -1,0 +1,12 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "iPhone X 128 GB",
+        "brand": "Apple",
+        "description": "O Apple iPhone X é um smartphone iOS avançado e abrangente em todos os pontos de vista com algumas características excelentes",
+        "price": 2000.1
+      }
+    ],
+    "count": 1
+}

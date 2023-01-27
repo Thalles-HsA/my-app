@@ -1,0 +1,23 @@
+.input__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.3px solid #BFBFBF;
+    border-radius: 4px;
+    width: 50%;
+}
+
+.input__container span{
+   cursor: pointer;
+}
+
+.input__container input{
+    width: 20%;
+    cursor: pointer;
+    margin: 0 0.8em;
+    text-align: center;
+}
+
+input::placeholder{
+    color: #000
+}

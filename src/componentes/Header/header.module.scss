@@ -1,0 +1,39 @@
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 48px;
+    background-color: #0F52BA;  
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.titulo h1 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0 0.2em 0 20px;
+}
+
+.titulo h2 {
+    font-weight: 300;
+}
+
+.carrinho__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 52px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 20px;
+    cursor: pointer;
+}
