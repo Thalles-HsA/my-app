@@ -13,11 +13,12 @@ function Header() {
         <h1>MKS</h1>
         <h2>Sistemas</h2>
       </div>
-        
+    
       <div className={styles.carrinho__container}>
         <FaCartArrowDown className={styles.carrinho}/>
         <p>0</p>
       </div>
+      
     </div>
   );
 }

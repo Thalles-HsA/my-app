@@ -1,19 +1,19 @@
 import React from 'react';
-import CardCarrinho from '../../componentes/CardCarrinho';
+import styles from "./home.module.scss";
+
 import Cards from '../../componentes/Cards';
 import Header from '../../componentes/Header';
-import styles from "./home.module.scss";
+import Footer from '../../componentes/Footer';
+
 
 function Home() {
   return (
-
-    <>
-      <Header />
-      <main className={styles.cards}>
-        <CardCarrinho />
-
-      </main>
-    </>
+     <div className={styles.home}>
+      <Header/>
+      <Cards />
+      <Cards />
+      <Footer />
+    </div>   
   );
 }
 

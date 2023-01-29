@@ -2,10 +2,10 @@
 .header__container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100vw;
     height: 48px;
-    background-color: #0F52BA;  
+    background-color: #0F52BA;
 }
 
 .titulo{
@@ -17,7 +17,7 @@
 .titulo h1 {
     font-size: 2em;
     font-weight: 600;
-    margin: 0 0.2em 0 20px;
+    margin: 0 0.2em 0 0;
 }
 
 .titulo h2 {
@@ -34,6 +34,9 @@
     height: 26px;
     font-size: 12px;
     font-weight: 700;
-    margin-right: 20px;
     cursor: pointer;
+}
+
+.carrinho{
+    display: none;
 }

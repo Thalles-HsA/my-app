@@ -1,0 +1,10 @@
+.home {
+    position: relative;
+    float: left;
+}
+
+.carrinho {
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}

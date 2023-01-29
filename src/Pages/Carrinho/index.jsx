@@ -1,17 +1,21 @@
 import React from 'react';
 import CardCarrinho from '../../componentes/CardCarrinho';
-import styles from "./home.module.scss";
+import styles from "./carrinho.module.scss";
 
-function Home() {
+import { RiCloseLine } from 'react-icons/ri';
+
+function Carrinho() {
   return (
+    <div className={styles.carrinho__container}>
+      <div className={styles.carrinho__titulo}>
+        <h2>Carrinho <br/> de compra</h2>
+        <RiCloseLine />
+      </div>
+      <CardCarrinho />
+      <CardCarrinho />
+    </div>
 
-    <>
-      <main className={styles.cards}>
-        <CardCarrinho />
-
-      </main>
-    </>
   );
 }
 
-export default Home;
+export default Carrinho;
