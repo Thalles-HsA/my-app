@@ -19,7 +19,7 @@ function Input() {
   return (
     < div className={styles.input__container}>
       <span onClick={somar}><AiOutlinePlus /></span>
-      <input value={valor} />
+      <input defaultValue={valor} />
       <span onClick={subtrair}><AiOutlineMinus /></span>
     </div>
   );

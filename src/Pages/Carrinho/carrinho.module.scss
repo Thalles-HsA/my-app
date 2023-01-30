@@ -1,12 +1,11 @@
 .carrinho__container {
     position: absolute;
-    height: auto;
-    width: 330px;
-    border-radius: 0 0 0 20px;
-    background: #0F52BA;
     top: 0;
     right: 0;
-    display: block;
+    z-index: 2;
+    border-radius: 0 0 0 20px;
+    width: 330px;
+    background: #0F52BA;
 }
 
 .carrinho__titulo{
@@ -24,4 +23,30 @@
     width: 60%;
 }
 
+.carrinho__totalbotao{
+    position: relative;
+}
 
+.carrinho__total{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    margin: 32px 16px;
+
+}
+.carrinho__total p{
+    margin: 0 16px;
+}
+
+.carrinho__botao{
+    width: 105%;
+    height: 65px;
+    border-radius: 0 0 0 20px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
